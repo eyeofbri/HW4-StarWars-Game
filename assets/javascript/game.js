@@ -1,4 +1,4 @@
-//im adding this line so the js file updates and uses PNG
+//i
 
 var characters = [
 	// upper row
@@ -60,7 +60,7 @@ function clickAI(el) {
 
 		//set p1 image
 		var imgSRC = characterName.replace(/\s+/g, '');
-		var imgLink = "./assets/images/characters/"+imgSRC+".PNG";
+		var imgLink = "./assets/images/characters/"+imgSRC+".png";
 		$("#p1_img").attr('src',imgLink);
 		//shake p1 image
 		shakeThings( "p1_img" );
@@ -94,7 +94,7 @@ function clickAI(el) {
 
 		//set p2 image
 		var imgSRC = characterName.replace(/\s+/g, '');
-		var imgLink = "./assets/images/characters/"+imgSRC+".PNG";
+		var imgLink = "./assets/images/characters/"+imgSRC+".png";
 		$("#p2_img").attr('src',imgLink);
 		//shake p2 image
 		shakeThings( "p2_img" );
@@ -240,7 +240,7 @@ function fightAI() {
 						$("#selected_Holder").removeClass("selectedHolder_battle");
 
 						//reset p2 image
-						var imgLink = "./assets/images/question.PNG";
+						var imgLink = "./assets/images/question.png";
 						$("#p2_img").attr('src',imgLink);
 						//shake p2 image
 						shakeThings( "p2_img" );
@@ -331,7 +331,7 @@ function resetGame() {
 	$("#selected_Holder").removeClass("selectedHolder_battle");
 
 	//reset p1 image
-	var imgLink = "./assets/images/question.PNG";
+	var imgLink = "./assets/images/question.png";
 	$("#p1_img").attr('src',imgLink);
 	//shake p2 image
 	shakeThings( "p1_img" );
@@ -345,7 +345,7 @@ function resetGame() {
 
 
 	//reset p2 image
-	var imgLink = "./assets/images/question.PNG";
+	var imgLink = "./assets/images/question.png";
 	$("#p2_img").attr('src',imgLink);
 	//shake p2 image
 	shakeThings( "p2_img" );
