@@ -1,5 +1,3 @@
-//i
-
 var characters = [
 	// upper row
 	{ name: "Boba Fett",	
@@ -60,7 +58,7 @@ function clickAI(el) {
 
 		//set p1 image
 		var imgSRC = characterName.replace(/\s+/g, '');
-		var imgLink = "./assets/images/characters/"+imgSRC+".png";
+		var imgLink = "./assets/images/characters/"+imgSRC+".PNG";
 		$("#p1_img").attr('src',imgLink);
 		//shake p1 image
 		shakeThings( "p1_img" );
@@ -94,7 +92,7 @@ function clickAI(el) {
 
 		//set p2 image
 		var imgSRC = characterName.replace(/\s+/g, '');
-		var imgLink = "./assets/images/characters/"+imgSRC+".png";
+		var imgLink = "./assets/images/characters/"+imgSRC+".PNG";
 		$("#p2_img").attr('src',imgLink);
 		//shake p2 image
 		shakeThings( "p2_img" );
@@ -240,7 +238,7 @@ function fightAI() {
 						$("#selected_Holder").removeClass("selectedHolder_battle");
 
 						//reset p2 image
-						var imgLink = "./assets/images/question.png";
+						var imgLink = "./assets/images/question.PNG";
 						$("#p2_img").attr('src',imgLink);
 						//shake p2 image
 						shakeThings( "p2_img" );
@@ -331,7 +329,7 @@ function resetGame() {
 	$("#selected_Holder").removeClass("selectedHolder_battle");
 
 	//reset p1 image
-	var imgLink = "./assets/images/question.png";
+	var imgLink = "./assets/images/question.PNG";
 	$("#p1_img").attr('src',imgLink);
 	//shake p2 image
 	shakeThings( "p1_img" );
@@ -345,7 +343,7 @@ function resetGame() {
 
 
 	//reset p2 image
-	var imgLink = "./assets/images/question.png";
+	var imgLink = "./assets/images/question.PNG";
 	$("#p2_img").attr('src',imgLink);
 	//shake p2 image
 	shakeThings( "p2_img" );

@@ -96,28 +96,28 @@
 }
 
 .card:nth-of-type(1){
-	background-image: url("../images/characters/heads/BobaFett_head.png");
+	background-image: url("../images/characters/heads/BobaFett_head.PNG");
 }
 .card:nth-of-type(2){
-	background-image: url("../images/characters/heads/Chewbacca_head.png");
+	background-image: url("../images/characters/heads/Chewbacca_head.PNG");
 }
 .card:nth-of-type(3){
-	background-image: url("../images/characters/heads/DarthSidious_head.png");
+	background-image: url("../images/characters/heads/DarthSidious_head.PNG");
 }
 .card:nth-of-type(4){
-	background-image: url("../images/characters/heads/DarthVader_head.png");
+	background-image: url("../images/characters/heads/DarthVader_head.PNG");
 }
 .row:nth-of-type(2) .card:nth-of-type(1){
-	background-image: url("../images/characters/heads/LukeSkywalker_head.png");
+	background-image: url("../images/characters/heads/LukeSkywalker_head.PNG");
 }
 .row:nth-of-type(2) .card:nth-of-type(2){
-	background-image: url("../images/characters/heads/LeiaOrgana_head.png");
+	background-image: url("../images/characters/heads/LeiaOrgana_head.PNG");
 }
 .row:nth-of-type(2) .card:nth-of-type(3){
-	background-image: url("../images/characters/heads/PadmeAmidala_head.png");
+	background-image: url("../images/characters/heads/PadmeAmidala_head.PNG");
 }
 .row:nth-of-type(2) .card:nth-of-type(4){
-	background-image: url("../images/characters/heads/obi-WanKenobi_head.png");
+	background-image: url("../images/characters/heads/obi-WanKenobi_head.PNG");
 }
 
 
